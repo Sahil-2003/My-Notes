@@ -11,6 +11,15 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_stack">Stack</string>
+    <string name="menu_queue">Queue</string>
+    <string name="menu_array">Array</string>
+    <string name="menu_graph">Graph</string>
+    <string name="menu_dp">Dynamic Programming</string>
+    <string name="menu_trees">Tree</string>
+    <string name="menu_ll">Linked List</string>
+    <string name="menu_recursion">Recursion</string>
+    <string name="menu_strings">String</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

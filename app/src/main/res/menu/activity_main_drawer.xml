@@ -19,7 +19,48 @@
 
         <item
             android:id="@+id/nav_stack"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/stack"
             android:title="@string/menu_stack" />
+
+        <item
+            android:id="@+id/nav_array"
+            android:icon="@drawable/array"
+            android:title="@string/menu_array" />
+
+        <item
+            android:id="@+id/nav_dp"
+            android:icon="@drawable/dp"
+            android:title="@string/menu_dp" />
+
+        <item
+            android:id="@+id/nav_graph"
+            android:icon="@drawable/graph"
+            android:title="@string/menu_graph" />
+
+        <item
+            android:id="@+id/nav_ll"
+            android:icon="@drawable/ll"
+            android:title="@string/menu_ll" />
+
+        <item
+            android:id="@+id/nav_queue"
+            android:icon="@drawable/queue"
+            android:title="@string/menu_queue" />
+
+        <item
+            android:id="@+id/nav_recursion"
+            android:icon="@drawable/recursion"
+            android:title="@string/menu_recursion" />
+
+        <item
+            android:id="@+id/nav_strings"
+            android:icon="@drawable/string"
+            android:title="@string/menu_strings" />
+
+        <item
+            android:id="@+id/nav_trees"
+            android:icon="@drawable/tree"
+            android:title="@string/menu_trees" />
+
     </group>
 </menu>

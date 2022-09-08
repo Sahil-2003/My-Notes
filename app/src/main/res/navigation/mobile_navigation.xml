@@ -28,4 +28,53 @@
         android:name="com.example.mynotes.ui.stack.Stack"
         android:label="@string/menu_stack"
         tools:layout="@layout/fragment_stack" />
+
+    <fragment
+        android:id="@+id/nav_array"
+        android:name="com.example.mynotes.ui.array.Array"
+        android:label="@string/menu_array"
+        tools:layout="@layout/fragment_array" />
+
+    <fragment
+        android:id="@+id/nav_dp"
+        android:name="com.example.mynotes.ui.dp.DynamicProgramming"
+        android:label="@string/menu_dp"
+        tools:layout="@layout/fragment_dynamic_programming" />
+
+    <fragment
+        android:id="@+id/nav_graph"
+        android:name="com.example.mynotes.ui.graph.Graph"
+        android:label="@string/menu_graph"
+        tools:layout="@layout/fragment_graph" />
+
+    <fragment
+        android:id="@+id/nav_ll"
+        android:name="com.example.mynotes.ui.ll.LinkedList"
+        android:label="@string/menu_ll"
+        tools:layout="@layout/fragment_linked_list" />
+
+    <fragment
+        android:id="@+id/nav_queue"
+        android:name="com.example.mynotes.ui.queue.Queue"
+        android:label="@string/menu_queue"
+        tools:layout="@layout/fragment_queue" />
+
+    <fragment
+        android:id="@+id/nav_recursion"
+        android:name="com.example.mynotes.ui.recursion.Recursion"
+        android:label="@string/menu_recursion"
+        tools:layout="@layout/fragment_recursion" />
+
+    <fragment
+        android:id="@+id/nav_strings"
+        android:name="com.example.mynotes.ui.string.Strings"
+        android:label="@string/menu_strings"
+        tools:layout="@layout/fragment_strings" />
+
+    <fragment
+        android:id="@+id/nav_trees"
+        android:name="com.example.mynotes.ui.trees.Trees"
+        android:label="@string/menu_trees"
+        tools:layout="@layout/fragment_trees" />
+
 </navigation>
