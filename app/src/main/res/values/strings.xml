@@ -27,4 +27,9 @@
     <string name="stackChoose">Choose a file</string>
     <string name="enter_name_file">Enter name of a file</string>
     <string name="upload">Upload</string>
+
+<!-- TODO:   Options Menu-->
+    <string name="addFile">AddFile</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="search">Search</string>
 </resources>
