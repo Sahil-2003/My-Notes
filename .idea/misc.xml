@@ -9,11 +9,27 @@
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1485" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1485" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/drawable/ic_menu_stack.xml" value="0.1485" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/activity_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/activity_pdfscreen_view.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/activity_stack_upload.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/app_bar_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/content_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_array.xml" value="0.22554347826086957" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_d_p.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_dynamic_programming.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_gallery.xml" value="0.22554347826086957" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_graph.xml" value="0.25" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_home.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_linked_list.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_queue.xml" value="0.22554347826086957" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_recursion.xml" value="0.25" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_slideshow.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_stack.xml" value="0.12158054711246201" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_string.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_strings.xml" value="0.22554347826086957" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/fragment_trees.xml" value="0.25" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/nav_header_main.xml" value="0.22554347826086957" />
+        <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/layout/stack_contents.xml" value="0.22554347826086957" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/menu/activity_main_drawer.xml" value="0.8" />
         <entry key="..\:/Android Projects/My-Notes/My-Notes/app/src/main/res/menu/main.xml" value="0.25" />
         <entry key="..\:/Android UI/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.1796875" />

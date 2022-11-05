@@ -23,7 +23,7 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-public class StackUpload extends AppCompatActivity {
+public class Upload extends AppCompatActivity {
 
     Button choose, upload;
     EditText namePDF;
@@ -34,7 +34,7 @@ public class StackUpload extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stack_upload);
+        setContentView(R.layout.activity_upload);
 
         storageReference = FirebaseStorage.getInstance().getReference();
         databaseReference = FirebaseDatabase.getInstance().getReference("UploadPDF");
@@ -98,7 +98,7 @@ public class StackUpload extends AppCompatActivity {
                 PutPDF putPDF1 = new PutPDF(str, uri.toString());
                 databaseReference.child("Stack").push().setValue(putPDF1);
 
-                Toast.makeText(StackUpload.this, "File Uploaded", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Upload.this, "File Uploaded", Toast.LENGTH_SHORT).show();
                 progressDialog.dismiss();
 
             }

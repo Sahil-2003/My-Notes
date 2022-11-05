@@ -14,10 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.mynotes.Adapters.StackAdapter;
-import com.example.mynotes.Models.PDFTopics;
+import com.example.mynotes.Adapters.Adapter;
 import com.example.mynotes.Models.PutPDF;
-import com.example.mynotes.StackUpload;
+import com.example.mynotes.Upload;
 import com.example.mynotes.databinding.FragmentStackBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -33,7 +32,7 @@ public class Stack extends Fragment {
     ArrayList<PutPDF> stackList;
     RecyclerView recyclerView;
     DatabaseReference databaseReference;
-    StackAdapter stackAdapter;
+    Adapter adapter;
 
     public Stack() {
         // Required empty public constructor
@@ -54,17 +53,17 @@ public class Stack extends Fragment {
         final ImageView add = binding.addButton;
         stackList = new ArrayList<>();
 
-        stackAdapter = new StackAdapter(stackList, getContext());
+        adapter = new Adapter(stackList, getContext());
         LinearLayoutManager linearLayoutManager =new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setNestedScrollingEnabled(true);
-        recyclerView.setAdapter(stackAdapter);
+        recyclerView.setAdapter(adapter);
         retrieveFiles();
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getContext(), StackUpload.class);
+                Intent intent = new Intent(getContext(), Upload.class);
                 startActivity(intent);
             }
         });
@@ -84,7 +83,7 @@ public class Stack extends Fragment {
                         stackList.add(pdf);
                     }
                 }
-                stackAdapter.notifyDataSetChanged();
+                adapter.notifyDataSetChanged();
             }
 
             @Override

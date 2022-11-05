@@ -17,7 +17,7 @@
             android:name=".PDFScreenView"
             android:exported="false" />
         <activity
-            android:name=".StackUpload"
+            android:name=".Upload"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
