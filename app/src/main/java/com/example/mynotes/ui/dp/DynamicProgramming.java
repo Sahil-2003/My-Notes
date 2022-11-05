@@ -74,7 +74,7 @@ public class DynamicProgramming extends Fragment {
     }
 
     public void retrieveFiles(){
-        databaseReference.child("DP").addListenerForSingleValueEvent(new ValueEventListener() {
+        databaseReference.child("Dynamic Programming").addListenerForSingleValueEvent(new ValueEventListener() {
             @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

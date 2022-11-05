@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stack"
+        android:title="@string/stack"/>
+
+    <item
+        android:id="@+id/array"
+        android:title="@string/array"/>
+
+    <item
+        android:id="@+id/dp"
+        android:title="@string/dp"/>
+
+    <item
+        android:id="@+id/graph"
+        android:title="@string/graph"/>
+
+    <item
+        android:id="@+id/linkedList"
+        android:title="@string/linkedList"/>
+
+    <item
+        android:id="@+id/queue"
+        android:title="@string/queue"/>
+
+    <item
+        android:id="@+id/recursion"
+        android:title="@string/recursion"/>
+
+    <item
+        android:id="@+id/string"
+        android:title="@string/string"/>
+
+    <item
+        android:id="@+id/tree"
+        android:title="@string/tree"/>
+</menu>

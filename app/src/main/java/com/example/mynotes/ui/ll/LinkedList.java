@@ -75,7 +75,7 @@ public class LinkedList extends Fragment {
     }
 
     public void retrieveFiles(){
-        databaseReference.child("LL").addListenerForSingleValueEvent(new ValueEventListener() {
+        databaseReference.child("Linked List").addListenerForSingleValueEvent(new ValueEventListener() {
             @SuppressLint("NotifyDataSetChanged")
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

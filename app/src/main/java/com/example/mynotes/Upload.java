@@ -8,9 +8,11 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.PopupMenu;
 import android.widget.Toast;
 
 import com.example.mynotes.Models.PutPDF;
@@ -25,8 +27,9 @@ import com.google.firebase.storage.UploadTask;
 
 public class Upload extends AppCompatActivity {
 
-    Button choose, upload;
+    Button choose, upload, topicMenu;
     EditText namePDF;
+    String topic;
 
     StorageReference storageReference;
     DatabaseReference databaseReference;
@@ -42,6 +45,24 @@ public class Upload extends AppCompatActivity {
         choose = (Button) findViewById(R.id.choose);
         upload = (Button) findViewById(R.id.upload);
         namePDF = (EditText) findViewById(R.id.nameFile);
+        topicMenu = (Button) findViewById(R.id.topicSelector);
+
+        topicMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popupMenu = new PopupMenu(Upload.this, topicMenu);
+
+                popupMenu.getMenuInflater().inflate(R.menu.topics, popupMenu.getMenu());
+                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem menuItem) {
+                        topic = menuItem.getTitle().toString();
+                        return true;
+                    }
+                });
+                popupMenu.show();
+            }
+        });
 
         upload.setEnabled(false);
 
@@ -96,7 +117,7 @@ public class Upload extends AppCompatActivity {
 
                 Uri uri = uriTask.getResult();
                 PutPDF putPDF1 = new PutPDF(str, uri.toString());
-                databaseReference.child("Stack").push().setValue(putPDF1);
+                databaseReference.child(topic).push().setValue(putPDF1);
 
                 Toast.makeText(Upload.this, "File Uploaded", Toast.LENGTH_SHORT).show();
                 progressDialog.dismiss();

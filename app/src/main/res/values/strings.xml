@@ -27,9 +27,21 @@
     <string name="stackChoose">Choose a file</string>
     <string name="enter_name_file">Enter name of a file</string>
     <string name="upload">Upload</string>
+    <string name="Topics">Select Topic</string>
 
 <!-- TODO:   Options Menu-->
     <string name="addFile">AddFile</string>
     <string name="bookmark">Bookmark</string>
     <string name="search">Search</string>
+
+<!--    TODO: Pop Up Menu-->
+    <string name="stack">Stack</string>
+    <string name="array">Array</string>
+    <string name="dp">Dynamic Programming</string>
+    <string name="graph">Graph</string>
+    <string name="linkedList">Linked List</string>
+    <string name="queue">Queue</string>
+    <string name="recursion">Recursion</string>
+    <string name="string">String</string>
+    <string name="tree">Tree</string>
 </resources>
