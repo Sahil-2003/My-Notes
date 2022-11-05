@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import com.example.mynotes.Adapters.Adapter;
 import com.example.mynotes.Models.PutPDF;
 import com.example.mynotes.Upload;
-import com.example.mynotes.databinding.FragmentStackBinding;
+import com.example.mynotes.databinding.FragmentArrayBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -30,7 +30,7 @@ import java.util.ArrayList;
 public class Array extends Fragment {
 
 
-    private FragmentStackBinding binding;
+    private FragmentArrayBinding binding;
     ArrayList<PutPDF> ArrayTopicList;
     RecyclerView recyclerView;
     DatabaseReference databaseReference;
@@ -48,7 +48,7 @@ public class Array extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        binding = FragmentStackBinding.inflate(inflater, container, false);
+        binding = FragmentArrayBinding.inflate(inflater, container, false);
         databaseReference = FirebaseDatabase.getInstance().getReference("UploadPDF");
 
         recyclerView = binding.recyclerView;
@@ -94,6 +94,4 @@ public class Array extends Fragment {
             }
         });
     }
-}
-
 }

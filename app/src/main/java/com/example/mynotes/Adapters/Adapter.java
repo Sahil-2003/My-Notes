@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.mynotes.Models.PutPDF;
 import com.example.mynotes.PDFScreenView;
 import com.example.mynotes.R;
-import com.example.mynotes.databinding.StackContentsBinding;
+import com.example.mynotes.databinding.ContentsViewBinding;
 
 import java.util.ArrayList;
 
@@ -60,11 +60,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>{
 
     static class ViewHolder extends RecyclerView.ViewHolder{
 
-        StackContentsBinding binding;
+        ContentsViewBinding binding;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            binding = StackContentsBinding.bind(itemView);
+            binding = ContentsViewBinding.bind(itemView);
         }
     }
 }
